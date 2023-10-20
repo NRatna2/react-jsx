@@ -1,0 +1,53 @@
+.form-container {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold; 
+  }
+  
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  
+  button[type="submit"],
+  button[type="button"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
